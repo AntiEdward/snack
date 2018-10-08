@@ -1,0 +1,111 @@
+.order-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #66b1ff;
+    color: #ffffff;
+}
+.select-warning{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    .waring-img{
+        background-image: url(../assets/images/face_warning.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+    }
+}
+.name{
+    display: flex;
+    align-items: center;
+    .name-input{
+        width: 193px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .select-group{
+        width: 300px;
+    }
+}
+.select{
+    .select-cascader{
+        margin: 50px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .select-input{
+        margin: 50px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        .select-input-btn{
+            background-color: #66b1ff;
+            width: 60px;
+            height: 25px;
+            font-size: 14px;
+        }
+    }
+    .select-group{
+        width: 300px;
+    }
+}
+
+.el-autocomplete{
+    width: 195px;
+}
+.order{
+    overflow: hidden;
+    width: 800px;
+    .order-title{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .order-list-group{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .order-list{
+        min-height: 200px;
+        border: 1px solid #d8d8d8;
+        border-radius: 4px;
+        width: 500px;
+        margin-right: 50px;
+        .order-list-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            border-bottom: 1px solid #d8d8d8;
+            padding-bottom: 10px;
+        }
+        .order-list-item-btn{
+            background-color: #dd6161;
+            width: 60px;
+            height: 25px;
+            font-size: 14px;
+        }
+    }
+    .order-btn-group{
+        display: flex;
+        // justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.check-orders{
+    overflow: hidden;
+    .check-orders-btn{
+        background-color: #52ad25;
+        width: 100px;
+        height: 30px;
+        float: left;
+    }
+    .check-orders-btn-group{
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+}
